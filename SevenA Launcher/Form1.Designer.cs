@@ -46,14 +46,6 @@
             this.panel2 = new System.Windows.Forms.Panel();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2GroupBox2 = new Guna.UI2.WinForms.Guna2GroupBox();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -68,12 +60,20 @@
             this.guna2HtmlLabel24 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel25 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel26 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel9 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            this.guna2GroupBox1.SuspendLayout();
             this.guna2GroupBox2.SuspendLayout();
             this.guna2GroupBox3.SuspendLayout();
+            this.guna2GroupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // guna2GradientButton1
@@ -87,9 +87,9 @@
             this.guna2GradientButton1.Font = new System.Drawing.Font("Sitka Small", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
             this.guna2GradientButton1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.ForwardDiagonal;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(831, 15);
+            this.guna2GradientButton1.Location = new System.Drawing.Point(668, 15);
             this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.Size = new System.Drawing.Size(166, 61);
+            this.guna2GradientButton1.Size = new System.Drawing.Size(147, 51);
             this.guna2GradientButton1.TabIndex = 0;
             this.guna2GradientButton1.Text = "Oyna";
             this.guna2GradientButton1.Click += new System.EventHandler(this.guna2GradientButton1_Click);
@@ -109,13 +109,13 @@
             this.guna2TextBox1.Font = new System.Drawing.Font("Verdana", 11F);
             this.guna2TextBox1.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(177, 29);
+            this.guna2TextBox1.Location = new System.Drawing.Point(155, 26);
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
             this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(123, 28);
+            this.guna2TextBox1.Size = new System.Drawing.Size(122, 28);
             this.guna2TextBox1.TabIndex = 1;
             // 
             // panel1
@@ -126,9 +126,9 @@
             this.panel1.Controls.Add(this.guna2TextBox2);
             this.panel1.Controls.Add(this.guna2TextBox1);
             this.panel1.Controls.Add(this.guna2GradientButton1);
-            this.panel1.Location = new System.Drawing.Point(0, 569);
+            this.panel1.Location = new System.Drawing.Point(0, 590);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1031, 89);
+            this.panel1.Size = new System.Drawing.Size(1031, 68);
             this.panel1.TabIndex = 0;
             // 
             // guna2HtmlLabel6
@@ -136,7 +136,7 @@
             this.guna2HtmlLabel6.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel6.Font = new System.Drawing.Font("Sitka Small", 13.75F);
             this.guna2HtmlLabel6.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel6.Location = new System.Drawing.Point(367, 29);
+            this.guna2HtmlLabel6.Location = new System.Drawing.Point(299, 26);
             this.guna2HtmlLabel6.Name = "guna2HtmlLabel6";
             this.guna2HtmlLabel6.Size = new System.Drawing.Size(138, 28);
             this.guna2HtmlLabel6.TabIndex = 9;
@@ -147,7 +147,7 @@
             this.guna2HtmlLabel5.BackColor = System.Drawing.Color.Transparent;
             this.guna2HtmlLabel5.Font = new System.Drawing.Font("Sitka Small", 13.75F);
             this.guna2HtmlLabel5.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel5.Location = new System.Drawing.Point(46, 29);
+            this.guna2HtmlLabel5.Location = new System.Drawing.Point(12, 26);
             this.guna2HtmlLabel5.Name = "guna2HtmlLabel5";
             this.guna2HtmlLabel5.Size = new System.Drawing.Size(125, 28);
             this.guna2HtmlLabel5.TabIndex = 8;
@@ -168,13 +168,13 @@
             this.guna2TextBox2.Font = new System.Drawing.Font("Verdana", 11F);
             this.guna2TextBox2.ForeColor = System.Drawing.Color.White;
             this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(511, 29);
+            this.guna2TextBox2.Location = new System.Drawing.Point(443, 26);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.guna2TextBox2.Name = "guna2TextBox2";
             this.guna2TextBox2.PasswordChar = '\0';
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(243, 28);
+            this.guna2TextBox2.Size = new System.Drawing.Size(186, 28);
             this.guna2TextBox2.TabIndex = 2;
             // 
             // guna2HtmlLabel1
@@ -284,7 +284,7 @@
             this.panel2.Controls.Add(this.guna2HtmlLabel3);
             this.panel2.Location = new System.Drawing.Point(807, -13);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(224, 582);
+            this.panel2.Size = new System.Drawing.Size(224, 612);
             this.panel2.TabIndex = 2;
             // 
             // listBox1
@@ -296,7 +296,7 @@
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.listBox1.ItemHeight = 11;
-            this.listBox1.Location = new System.Drawing.Point(0, 409);
+            this.listBox1.Location = new System.Drawing.Point(0, 441);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(221, 165);
             this.listBox1.Sorted = true;
@@ -311,107 +311,8 @@
             this.panel3.Controls.Add(this.guna2HtmlLabel8);
             this.panel3.Location = new System.Drawing.Point(0, -10);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(845, 579);
+            this.panel3.Size = new System.Drawing.Size(845, 606);
             this.panel3.TabIndex = 3;
-            // 
-            // guna2HtmlLabel10
-            // 
-            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Sitka Small", 8.75F);
-            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel10.Location = new System.Drawing.Point(22, 40);
-            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
-            this.guna2HtmlLabel10.Size = new System.Drawing.Size(44, 20);
-            this.guna2HtmlLabel10.TabIndex = 12;
-            this.guna2HtmlLabel10.Text = "- Log 1";
-            // 
-            // guna2HtmlLabel9
-            // 
-            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Sitka Small", 8.75F, System.Drawing.FontStyle.Underline);
-            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel9.Location = new System.Drawing.Point(675, 9);
-            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
-            this.guna2HtmlLabel9.Size = new System.Drawing.Size(73, 20);
-            this.guna2HtmlLabel9.TabIndex = 11;
-            this.guna2HtmlLabel9.Text = "24/10/2022";
-            // 
-            // guna2HtmlLabel8
-            // 
-            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Sitka Small", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2HtmlLabel8.Location = new System.Drawing.Point(283, 24);
-            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
-            this.guna2HtmlLabel8.Size = new System.Drawing.Size(266, 56);
-            this.guna2HtmlLabel8.TabIndex = 10;
-            this.guna2HtmlLabel8.Text = "Yama Notları";
-            // 
-            // guna2GroupBox1
-            // 
-            this.guna2GroupBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2GroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.guna2GroupBox1.BorderRadius = 10;
-            this.guna2GroupBox1.BorderThickness = 2;
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel14);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel13);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel12);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel11);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel9);
-            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel10);
-            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
-            this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Sitka Small", 12.75F);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(24, 102);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.Size = new System.Drawing.Size(761, 151);
-            this.guna2GroupBox1.TabIndex = 13;
-            this.guna2GroupBox1.Text = "Change LOG 1:";
-            // 
-            // guna2HtmlLabel11
-            // 
-            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Sitka Small", 8.75F);
-            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel11.Location = new System.Drawing.Point(22, 82);
-            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
-            this.guna2HtmlLabel11.Size = new System.Drawing.Size(45, 20);
-            this.guna2HtmlLabel11.TabIndex = 13;
-            this.guna2HtmlLabel11.Text = "- Log 3";
-            // 
-            // guna2HtmlLabel12
-            // 
-            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Sitka Small", 8.75F);
-            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel12.Location = new System.Drawing.Point(22, 60);
-            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
-            this.guna2HtmlLabel12.Size = new System.Drawing.Size(45, 20);
-            this.guna2HtmlLabel12.TabIndex = 14;
-            this.guna2HtmlLabel12.Text = "- Log 2";
-            // 
-            // guna2HtmlLabel13
-            // 
-            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Sitka Small", 8.75F);
-            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel13.Location = new System.Drawing.Point(22, 103);
-            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(46, 20);
-            this.guna2HtmlLabel13.TabIndex = 15;
-            this.guna2HtmlLabel13.Text = "- Log 4";
-            // 
-            // guna2HtmlLabel14
-            // 
-            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
-            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Sitka Small", 8.75F);
-            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.White;
-            this.guna2HtmlLabel14.Location = new System.Drawing.Point(22, 125);
-            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
-            this.guna2HtmlLabel14.Size = new System.Drawing.Size(45, 20);
-            this.guna2HtmlLabel14.TabIndex = 16;
-            this.guna2HtmlLabel14.Text = "- Log 5";
             // 
             // guna2GroupBox2
             // 
@@ -589,6 +490,105 @@
             this.guna2HtmlLabel26.TabIndex = 12;
             this.guna2HtmlLabel26.Text = "- Log 1";
             // 
+            // guna2GroupBox1
+            // 
+            this.guna2GroupBox1.BackColor = System.Drawing.Color.Transparent;
+            this.guna2GroupBox1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.guna2GroupBox1.BorderRadius = 10;
+            this.guna2GroupBox1.BorderThickness = 2;
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel14);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel13);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel12);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel11);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel9);
+            this.guna2GroupBox1.Controls.Add(this.guna2HtmlLabel10);
+            this.guna2GroupBox1.CustomBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(50)))), ((int)(((byte)(50)))));
+            this.guna2GroupBox1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2GroupBox1.Font = new System.Drawing.Font("Sitka Small", 12.75F);
+            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
+            this.guna2GroupBox1.Location = new System.Drawing.Point(24, 102);
+            this.guna2GroupBox1.Name = "guna2GroupBox1";
+            this.guna2GroupBox1.Size = new System.Drawing.Size(761, 151);
+            this.guna2GroupBox1.TabIndex = 13;
+            this.guna2GroupBox1.Text = "Change LOG 1:";
+            // 
+            // guna2HtmlLabel14
+            // 
+            this.guna2HtmlLabel14.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel14.Font = new System.Drawing.Font("Sitka Small", 8.75F);
+            this.guna2HtmlLabel14.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel14.Location = new System.Drawing.Point(22, 125);
+            this.guna2HtmlLabel14.Name = "guna2HtmlLabel14";
+            this.guna2HtmlLabel14.Size = new System.Drawing.Size(45, 20);
+            this.guna2HtmlLabel14.TabIndex = 16;
+            this.guna2HtmlLabel14.Text = "- Log 5";
+            // 
+            // guna2HtmlLabel13
+            // 
+            this.guna2HtmlLabel13.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel13.Font = new System.Drawing.Font("Sitka Small", 8.75F);
+            this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel13.Location = new System.Drawing.Point(22, 103);
+            this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(46, 20);
+            this.guna2HtmlLabel13.TabIndex = 15;
+            this.guna2HtmlLabel13.Text = "- Log 4";
+            // 
+            // guna2HtmlLabel12
+            // 
+            this.guna2HtmlLabel12.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel12.Font = new System.Drawing.Font("Sitka Small", 8.75F);
+            this.guna2HtmlLabel12.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel12.Location = new System.Drawing.Point(22, 60);
+            this.guna2HtmlLabel12.Name = "guna2HtmlLabel12";
+            this.guna2HtmlLabel12.Size = new System.Drawing.Size(45, 20);
+            this.guna2HtmlLabel12.TabIndex = 14;
+            this.guna2HtmlLabel12.Text = "- Log 2";
+            // 
+            // guna2HtmlLabel11
+            // 
+            this.guna2HtmlLabel11.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel11.Font = new System.Drawing.Font("Sitka Small", 8.75F);
+            this.guna2HtmlLabel11.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel11.Location = new System.Drawing.Point(22, 82);
+            this.guna2HtmlLabel11.Name = "guna2HtmlLabel11";
+            this.guna2HtmlLabel11.Size = new System.Drawing.Size(45, 20);
+            this.guna2HtmlLabel11.TabIndex = 13;
+            this.guna2HtmlLabel11.Text = "- Log 3";
+            // 
+            // guna2HtmlLabel9
+            // 
+            this.guna2HtmlLabel9.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel9.Font = new System.Drawing.Font("Sitka Small", 8.75F, System.Drawing.FontStyle.Underline);
+            this.guna2HtmlLabel9.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel9.Location = new System.Drawing.Point(675, 9);
+            this.guna2HtmlLabel9.Name = "guna2HtmlLabel9";
+            this.guna2HtmlLabel9.Size = new System.Drawing.Size(73, 20);
+            this.guna2HtmlLabel9.TabIndex = 11;
+            this.guna2HtmlLabel9.Text = "24/10/2022";
+            // 
+            // guna2HtmlLabel10
+            // 
+            this.guna2HtmlLabel10.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel10.Font = new System.Drawing.Font("Sitka Small", 8.75F);
+            this.guna2HtmlLabel10.ForeColor = System.Drawing.Color.White;
+            this.guna2HtmlLabel10.Location = new System.Drawing.Point(22, 40);
+            this.guna2HtmlLabel10.Name = "guna2HtmlLabel10";
+            this.guna2HtmlLabel10.Size = new System.Drawing.Size(44, 20);
+            this.guna2HtmlLabel10.TabIndex = 12;
+            this.guna2HtmlLabel10.Text = "- Log 1";
+            // 
+            // guna2HtmlLabel8
+            // 
+            this.guna2HtmlLabel8.BackColor = System.Drawing.Color.Transparent;
+            this.guna2HtmlLabel8.Font = new System.Drawing.Font("Sitka Small", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.guna2HtmlLabel8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.guna2HtmlLabel8.Location = new System.Drawing.Point(283, 24);
+            this.guna2HtmlLabel8.Name = "guna2HtmlLabel8";
+            this.guna2HtmlLabel8.Size = new System.Drawing.Size(266, 56);
+            this.guna2HtmlLabel8.TabIndex = 10;
+            this.guna2HtmlLabel8.Text = "Yama Notları";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -608,12 +608,12 @@
             this.panel2.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2GroupBox1.PerformLayout();
             this.guna2GroupBox2.ResumeLayout(false);
             this.guna2GroupBox2.PerformLayout();
             this.guna2GroupBox3.ResumeLayout(false);
             this.guna2GroupBox3.PerformLayout();
+            this.guna2GroupBox1.ResumeLayout(false);
+            this.guna2GroupBox1.PerformLayout();
             this.ResumeLayout(false);
 
         }
